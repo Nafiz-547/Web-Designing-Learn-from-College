@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Quiz Desain Aplikasi Web</title>
+    </head>
+
+    <h3><b>B. Petunjuk Mengerjakan Soal</b></h3>
+
+    <body>
+        
+        <p>Kerjakanlah seluruh soal yang meliputi materi ujian sebagai berikut</p>
+        <p>
+            Bagian 1: <b>TABEL LAPORAN</b>
+        </p>
+        <P>
+            Buatlah tabel laporan seperti pada lampiran soal dan tabel bantu di sheet lain, 
+            ganti dengan nama sheet <b>JAWABAN</b>,kemudian isikan kolom-kolomnya dengan 
+            ketentuan sebagai berikut:
+            <ol type="1">
+                <li>Kolom <b>Nama Makanan</b> diisi dari pembacaan tabel bantu 1 dengan berdasarkan kode penjualan
+
+                <li>Kolom <b>Customer</b> diisi dari pembacaan tabel bantu 2 dengan berdasarkan Kode Penjualan
+
+                <li>Kolom <b>Ukuran</b> diisi dengan mengambil dua karakter akhir dari Kode Penjualan dengan ketentuan: 
+                    <ol type="a">
+                        <li>Jika "BS" maka "Besar"
+                        <li>Jika "SD" maka "Sedang"
+                        <li>Jika "KC" maka "Kecil"
+                    </ol>
+
+                <li>Kolom <b>Jumlah Beli</b> diisi dengan mengambil tiga karakter dimulai dari karakter
+                    keempat dari Kode Penjualan dan dirubah menjadi data value atau numerik.
+                
+                <li>Kolom <b>Harga Satuan</b> diisi dari pembacaan tabel bantu 1 dengan berdasarkan Ukuran.
+            </ol>
+        </P>
+
+        <table border="2" cellpadding="4" align="center">
+            <tr style="background-color: yellow;">
+                <th rowspan="2">Nama Makanan</th>
+                <th colspan="4"> Jumlah Penjualan</th>
+                <th rowspan="2">Total Penjualan</th>
+            </tr>
+            <tr style="background-color: yellow;">
+                <th>Sweety Food</th>
+                <th>Praja Food</th>
+                <th>Honey Food</th>
+                <th>Top Food</th>
+            </tr>
+            <tr>
+                <th align="left">Biskuit Cokelat</th>
+                <th>350</th>
+                <th>500</th>
+                <th>450</th>
+                <th>650</th>
+                <th>1950</th>
+            </tr>
+            <tr>
+                <th align="left">Biskuit Keju</th>
+                <th>450</th>
+                <th>550</th>
+                <th>850</th>
+                <th>700</th>
+                <th>2550</th>
+            </tr>
+            <tr>
+                <th align="left">Biskuit Stroberi</th>
+                <th>750</th>
+                <th>800</th>
+                <th>450</th>
+                <th>800</th>
+                <th>2800</th>
+            </tr>
+            <tr style="background-color: yellow;">
+                <th colspan="5" align="left">Total Maksimal</th>
+                <th>2800</th>
+            </tr>
+            <tr style="background-color: yellow;">
+                <th colspan="5" align="left">Total Minimal</th>
+                <th>1950</th>
+            </tr>
+            <tr style="background-color: yellow;">
+                <th colspan="5" align="left">Total Rata-Rata</th>
+                <th>2433,333333</th>
+            </tr>
+            <tr style="background-color: yellow;">
+                <th colspan="5" align="left">Total Seulur</th>
+                <th>7300</th>
+            </tr>
+            <tr style="background-color: yellow;">
+                <th colspan="6" align="center">DATA BALAI PENGAWASAN OBAT DAN MAKANAN TAHUN 2021</th>
+            </tr>
+
+        </table>
+    </body>
+</html>

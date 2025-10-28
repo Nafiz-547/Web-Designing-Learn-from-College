@@ -52,7 +52,7 @@ Ada dua cara untuk melihat hasil akhir dari proyek ini:
 
 Cara terbaik untuk melihat proyek web statis adalah melalui demo langsung.
 
-> **Link Demo:** [**https://Nafiz-547.github.io/Web-Designing-Learn-from-College/**](https://NAMA-USERNAME-ANDA.github.io/NAMA-REPOSITORI-INI/)
+> **Link Demo:** [**/**](https://NAMA-USERNAME-ANDA.github.io/NAMA-REPOSITORI-INI/)
 
 *(Catatan: Untuk mengaktifkan ini, pergi ke tab `Settings` di repositori Anda > `Pages` > pada bagian `Branch`, pilih `main` dan `root`, lalu `Save`. Link akan aktif dalam beberapa menit).*
 
